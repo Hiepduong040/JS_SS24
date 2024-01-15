@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      var a = +prompt("Nhập vào số nguyên dương a");
+      var b = +prompt("Nhập vào số nguyên dương b");
+      var sumEvenNumbers = 0;
+      var sumOddNumbers = 0;
+      for (i = a; i <= b; i++) {
+        if (i % 2 == 0) {
+          sumEvenNumbers = sumEvenNumbers + i;
+        } else {
+          sumOddNumbers = sumOddNumbers + i;
+        }
+      }
+      console.log("Tổng các số chẵn nằm giữa a và b là:", sumEvenNumbers);
+      console.log("Tổng các số lẻ nawmgf giữa a và b là:", sumOddNumbers);
+    </script>
+  </body>
+</html>
